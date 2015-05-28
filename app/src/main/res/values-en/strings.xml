@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LocGeo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="activar">Activate</string>
+    <string name="desactivar">Deactivate</string>
+    <string name="estadoprov">State supplier</string>
+    <string name="posicion_actual">Present position</string>
+
+    <string name="latitud">Latitude</string>
+    <string name="longitud">Longitude</string>
+    <string name="presision">Accuracy</string>
+    <string name="proveedor">Provider</string>
+</resources>

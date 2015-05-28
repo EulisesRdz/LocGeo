@@ -23,20 +23,20 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
         android:textColor="#000000"
-        android:text="Latitud" />
+        android:text="@string/latitud" />
 
     <TextView android:id="@+id/LblPosLongitud"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
         android:textColor="#000000"
-        android:text="Longitud"/>
+        android:text="@string/longitud"/>
 
     <TextView android:id="@+id/LblPosPrecision"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#000000"
-        android:text="Precision"/>
+        android:text="@string/presision"/>
 
     <LinearLayout
         android:orientation="horizontal"
@@ -70,7 +70,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#000000"
-        android:text="provedor"
+        android:text="@string/proveedor"
         android:layout_gravity="center_horizontal"/>
 
 </LinearLayout>

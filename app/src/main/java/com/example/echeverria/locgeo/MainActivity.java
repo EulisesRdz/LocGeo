@@ -89,7 +89,7 @@ public class MainActivity extends Activity {
     private void muestraPosicion(Location loc) {
         if(loc != null)
         {
-            lblLatitud.setText("Latitud: " + String.valueOf(loc.getLatitude()));
+            lblLatitud.setText( R.string.latitud + "Latitud: " + String.valueOf(loc.getLatitude()));
             lblLongitud.setText("Longitud: " + String.valueOf(loc.getLongitude()));
             lblPrecision.setText("Precision: " + String.valueOf(loc.getAccuracy()));
             //Log.i("LocAndroid", String.valueOf(loc.getLatitude() + " - " + String.valueOf(loc.getLongitude())));
@@ -108,5 +108,4 @@ public class MainActivity extends Activity {
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
     }
-
 }
